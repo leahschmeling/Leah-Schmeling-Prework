@@ -1,0 +1,45 @@
+#nav {
+  height: auto;
+	margin: 0px;
+  position:absolute;
+  top:0px;
+  left:0px;
+  right:-25px;
+  background: gray;
+  font-family: times new roman;
+  font-size: 12px;
+  text-align: center;
+  
+}
+#box-1 {
+  position: absolute;
+  left: 0px;
+  top: 5%;
+  width: 50%;
+  height: 50%;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#box-2 {
+ background-color: red;
+  position: absolute;
+  top:5%;;
+  right: -25px;
+  width: 25%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: green;
+  color: black;
+  text-align: center;
+}
