@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact.html</title>
+
+ <!-- Link html to the Bootstrap CDN and CSS sheet-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+<link rel="stylesheet" href="assets/css/reset.css">
+<link rel="stylesheet" href="assets/css/style.css">      
+</head>
+<body>
+  
+<!--Navbar section-->
+<div class="row">
+  <nav class="navbar navbar-expand-md navbar-light bg-white static-top" id="header-box">
+    <div name="main-header" class="container container-fluid">
+       <div class="row">
+    <div class="container-fluid .ml-md-auto .ml-xs-auto">
+  <div class="navbar-brand text .ml-md-auto .ml-s-auto.ml-xs-auto" id="navbar-brand">
+    <h1>Leah Schmeling</h1>
+        </div>
+    </div>
+</div>
+
+<!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+  
+<!--navbar link codes -->      
+<div name="navbar-links">
+  <h2 id="navbar-text">
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+<ul class="navbar-nav nav-bar-right mr-auto">
+  <li class="nav-item active"></li>
+  <li class="nav-item"><a class="nav-link" href="index.html">About</a></li>   
+  <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+  <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </h2> 
+      </div> 
+      
+</div>
+  </div>
+    </nav>
+       </div>
+  
+<!--contact form section -->
+<main>
+<section name="Contact" class="container" >
+  <div class="row">
+    <div class="col-12">
+
+<div class="heading display-4"><h2>Contact Me</h2><hr></div>
+   
+<form action="/action_page.php">
+ <label for="Name">Name</label>
+<input type="text" id="Your-name" name="Name" placeholder="Your name">
+
+<label for="email">Email</label>
+<input type="text" id="email" name="Email" placeholder="Email">
+
+<label for="Message" >Message</label>
+<textarea class='autoExpand' rows='3' data-min-rows='3'></textarea> <input type="submit" value="Submit">
+</form>
+               </div>
+             </div>
+          </div>
+    </section>
+</main>
+  
+<!--bottom row-->
+<div class="container-bottom">
+    <div class="col-md-12 col-xs-12">
+      <p><p>
+       </div>
+  </div>
+</body>
+
+<!--footer code-->
+<footer>Copyright ⓒ</footer>
+</html> 
+
+<style>
+  /*///////////// background image ////////////////*/
+body {
+background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/y-so-serious-white.png'); 
+}
+
+
+/*/////////////Header and navbar CSS ////////////////*/
+#header-box{
+width:100%;
+padding: 0px;
+margin-bottom: 2em;
+}
+
+nav {
+ background:#ffffff;
+ margin: 0 auto;
+ width: 100%;
+ border-style:solid;
+ border-color:#cccccc;
+ border-width: 2px;
+}
+
+.nav-link, .navbar-collapse
+{  
+  color: #777777;
+  font-size:20px;
+  background: transparent;
+}
+
+#navbar-brand {
+font-family:'Georgia', 'Times', 'Times New Roman', 'serif';
+color: #ffffff;
+background: #4AAAA5;  
+border-style: solid;
+border-width: 2px;
+border-color: #4AAAA5;
+padding: 10px;
+margin-left: -10px;
+}
+
+.container-fluid, .container {
+background: #ffffff;
+border-color:#cccccc;
+font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+text-align:left;
+margin: 0 auto;
+}
+
+
+
+/*/////////////////////////////// contact section CSS //////////////////////////////////*/
+section {
+border-style: solid;
+border-width: 2px;
+border-color: #dddddd;
+}
+
+.display-4 {
+font-family:'Georgia', 'Times', 'Times New Roman', 'serif';
+color: #4AAAA5;
+margin-left: 10px;
+padding: 15px 6px;
+}
+
+.my-4 {
+  border: 2px solid #EEEEEE;
+  border-style: solid none;
+  border-width: 1px 0;
+}
+
+/*/////////////////////////////// form CSS //////////////////////////////////*/
+form {
+color: #777777;
+margin-left: 0px;
+margin-bottom: 20px;
+padding: 10px;
+
+}
+label {
+  Font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+  font-size: 20px;  
+  
+}
+
+input[type=text], select, textarea {
+font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+color: #777777;
+width: 100%;
+padding: 12px;
+border: 1px solid #dddddd;
+margin: 6px 0px 16px 0px;
+resize: vertical;
+}
+
+input[type=text], autoExpand, textarea {
+font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+color: #777777;
+width: 100%;
+padding: 12px;
+border: 1px solid #dddddd;
+margin: 6px 0px 16px 0px;
+resize: vertical;
+}
+
+input[type=submit] {
+  font-family:arial;
+  font-size: 20px;
+  background-color: #4AAAA5;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+input[type=submit]:hover {
+  background-color: #4AAAA5;
+  opacity: 0.6;
+}
+
+/*////////////////////////////// Footer CSS ///////////////////////////////////*/
+.container-bottom {
+background: #4AAAA5;
+width: 100%;
+margin: 0 auto;
+bottom: 0px;
+overflow: hidden;
+padding-bottom: 20px;
+position: fixed;
+left: 0;
+bottom: 10px;
+width: 100%;
+}
+footer {
+ font-family:'Georgia', 'Times', 'Times New Roman', 'serif';
+font-size:16px;
+position: fixed;
+left: 0;
+bottom: 0;
+padding-top:10px;
+width: 100%;
+background-color: #666666;
+color: black;
+text-align: center;
+align-items: center;
+vertical-align: bottom;
+}
+
+</style>
