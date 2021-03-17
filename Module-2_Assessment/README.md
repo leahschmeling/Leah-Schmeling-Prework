@@ -1,5 +1,5 @@
 # Word Guess Game
-[Link to game](https://github.com/leahschmeling/Leah-Schmeling-Prework/tree/master/Module-2_Assessment)
+[Link to game files](https://github.com/leahschmeling/Leah-Schmeling-Prework/tree/master/Module-2_Assessment)
 
 ### Summary
 Word Guess Game is a simplified version of the classic Hangman game. I made this project as a part of Dev10's Web Development course as a prework assignment. 
